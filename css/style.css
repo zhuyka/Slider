@@ -1,0 +1,200 @@
+/*select, p, label {
+  width: 120px;
+  float: left;
+  margin-bottom: 20px;
+  margin-left: 40px; 
+  clear: both;
+  text-align: center;
+  background-color: pink;
+}
+p {
+  color: pink;
+  background-color: black;
+}
+
+input {
+  width: 120px;
+  float: left;
+  margin-left: 40px; 
+  background: transparent; /*прозрач фон
+  background-color: pink;
+  border: none;
+  clear: both;
+  text-align: center;*/
+
+
+
+/*
+
+
+
+
+
+
+a.open-modal{
+	position: fixed;
+	top: 50px;
+	left: 250px;
+
+	border-radius: 10px;
+	background: gray;
+	color: black;
+	border: solid 2px black;
+	padding: 10px 20px;
+	text-decoration: none;
+}
+a.open-modal:hover{
+	border: solid 3px rgb(31, 31, 31);
+	background: rgb(185, 185, 185);
+	color: red;
+	top: 49px;
+	left: 249px;
+}
+
+form.calkulyator {
+ 
+  background-color: rgb(90, 90, 90);
+  border: 2px solid black; 
+  margin: 0 auto;
+  float: left;
+  clear: both;
+}
+label {
+  width: 220px;
+  padding: 5px 0px;
+  color: orange;
+  text-align: center;
+  float: left;
+  clear: both;
+  float: left;
+  clear: both;
+}
+select,p,input {
+  width: 220px;
+  float: left;
+  border: 1px solid grey;
+  float: left;
+  clear: both;
+  text-align: center;
+  padding: 5px 10px;
+  background-color: rgb(41, 41, 41);
+  color: orange;
+}
+select{
+	float: left;
+	margin-left: 11px;
+}
+.calc-info {
+display: table;
+margin: 0 auto;
+padding: 15px;
+}
+.error {
+  background-color: red;
+}
+.modal-baget{
+display: none;
+}
+.calc-wrapper{
+display: table;
+margin: 0 auto;
+padding: 15px;
+}
+#calc-info{
+  width: 100%;
+  height: 100%;
+  display: none;
+  position: absolute;
+  background: rgba(175, 175, 243, 0.59);
+}
+.close-form{
+	width: 100%;
+}
+ul{list-style:none;}                  /*стили для галереи*/
+/*
+.gallery {width: 660px; margin: 0 auto 20px auto;}
+.gallery ul {padding-left: 10px;}
+.gallery li {display: inline; margin-right: 3px; width: 104px; float: left;}
+.gallery li img {width: 100%;}
+.gallery .active {border: solid 3px green; height: 61px;}
+
+
+*/
+
+/*Gallery 2*/
+
+/*
+
+.slider-wraper {position: relative; width: 660px; margin: 0 auto 20px auto;overflow: hidden;}
+.slider-wraper .secondSlider  {width:150000px}
+.slider-wraper .secondSlider  li{float:left;width:660px;}
+.secondSlider{position: relative;}
+
+
+.next-btn,.prev-btn{
+  width: 50px;
+height: 50px;
+background: black;
+position: absolute;
+}
+.next-btn{
+  right: 0;
+z-index: 999;
+float: left;
+margin-top: 25%;
+}
+.prev-btn{
+  left: 0;
+z-index: 999;
+float: right;
+margin-top: 25%;
+}
+.slider-wraper{
+  height: 500px;
+}
+.disabled{display:none}
+*/
+
+
+
+
+
+
+ul{list-style:none;}
+
+
+.slider-wraper {/*width: 100%;*/ margin: 0 auto 0px auto;overflow: hidden;height:450px;position:relative;}
+.slider-wraper >ul {
+  position:relative;
+  top:0;
+}
+.slider-wraper ul  {padding: 0 !important;margin:0 !important;height:300px;float: left;}
+.slider-wraper ul  li{float:left; height:300px;overflow:hidden;}
+/*.slider-wraper li img{width:100%;}*/
+
+.slider-wraper .thumbnails{
+  position:relative;
+  float: left;
+  width:100%;
+}
+.slider-wraper .thumbnails li{
+  border: 1px solid transparent;
+}
+.slider-wraper .thumbnails li.active{
+  border:1px solid red;
+}
+ .next-btn,.prev-btn{
+  width: 50px;
+height: 50px;
+background: black;
+z-index: 999999;
+position:absolute;
+}
+
+.next-btn{
+  right: 0;
+}
+.prev-btn{
+  left: 0
+}
+#small{width: 100px;}
